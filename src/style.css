@@ -1,0 +1,96 @@
+
+* {
+    font-family: system-ui, -apple-system;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+    flex-direction:column;
+    align-items: center;
+}
+#home{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+    flex-direction:column;
+    align-items: center;
+}
+.cards{
+    border-radius: 20px;
+    box-shadow: 8px 8px 30px rgb(0, 0, 0);
+    padding: 15px;
+    width: 500px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+    background-color: white;
+   
+}
+.input{
+    border-radius: 20px;
+    box-shadow: 8px 8px 30px rgb(0, 0, 0);
+    padding: 15px;
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+#cadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+    color: antiquewhite;
+    text-shadow: 0px 3px 5px rgb(0, 0, 0);
+}
+
+h3{
+    font-weight: 600;
+}
+
+button{
+    margin: 50px 5px 10px 5px ;
+    padding: 8px 25px;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    transition-duration: 500ms;
+}
+
+button:hover{
+    cursor: pointer;
+    translate: 0px -3px;
+    box-shadow: 0px 3px 5px gray;
+    transition-duration: 500ms;
+    filter: sepia(80%);
+}
+
+body{
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+input{
+    color: rgb(8, 8, 8);
+    margin-bottom: 15px;
+    padding: 5px 0;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none!important;
+}
